@@ -1,0 +1,97 @@
+.column1, .column2, .column3{
+    float: left;
+    width: 50%;
+}
+
+
+#subject{
+    margin: 10px;
+    margin-left: 4px;
+}
+
+.c1{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+
+
+
+h2{
+    text-decoration: underline;
+    text-decoration-color:  #e07041;
+    text-decoration-thickness: 1px;
+}
+
+input[type=text]{
+    width: 70%;
+    padding: 12px 20px;
+    margin-top: 3px;
+
+}
+
+textarea{
+    width: 100%;
+    margin-top: 9px;
+}
+
+input[type=submit]{
+    width: 100%;
+    background-color:#e07041 ;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    margin-top: 4px;
+}
+
+
+.div{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.div:hover{
+    background: linear-gradient( red, blue, green);
+    width: 300px;
+    height: 200px;
+    transform: rotate(180deg);
+    
+}
+
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: good;
+    animation-duration: 10s;
+}
+
+@keyframes good{
+    0% {background-color: red;}
+    25% {background: linear-gradient(cyan, grey,wheat);}
+    50% {background-color: black;}
+    75% {background-color: yellow;}
+    100% {background-color: tomato;}
+}
+
+#learn{
+    animation-name: learn;
+    animation-duration: 10s;
+    animation-iteration-count: 10;
+    transition: transform 10s;
+    animation-direction: reverse;
+}
+
+#learn:hover{
+    transform: rotate(360deg);
+}
+
+@keyframes learn{
+    0% {background-color: red;}
+    25% {background: linear-gradient(cyan, grey,wheat);}
+    50% {background-color: black;}
+    75% {background-color: yellow;}
+    100% {background-color: tomato;}
+}

@@ -1,0 +1,59 @@
+#p1 {
+  border: solid;
+  border-color: red green blue yellow;
+  border-width: 5px;
+}
+
+#span1 {
+  border-style: dotted;
+}
+
+#span2 {
+  border-style: dashed;
+}
+
+#span3 {
+  border-style: solid;
+}
+
+#span4 {
+  border-style: double;
+}
+
+#span5 {
+  border-style: groove;
+}
+
+#span6 {
+  border-style: ridge;
+}
+
+#span7 {
+  border-style: unset;
+}
+
+#span8 {
+  border-style: outset;
+}
+
+#span10 {
+  border-style: hidden;
+}
+
+#span11 {
+  border-style: dotted double solid groove;
+}
+
+header {
+  background-color: #04aa6d;
+}
+header h2, header p {
+  color: white;
+}
+header p {
+  line-height: 0.4;
+}
+
+.nav-link:hover:not(.active) {
+  background-color: #f1f1f1;
+}/*# sourceMappingURL=styles.css.map */
